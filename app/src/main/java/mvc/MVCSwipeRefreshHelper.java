@@ -20,8 +20,7 @@ public class MVCSwipeRefreshHelper<DATA> extends MVCHelper<DATA> {
 	}
 
 	public MVCSwipeRefreshHelper(SwipeRefreshLayout swipeRefreshLayout, ILoadViewFactory.ILoadView loadView, ILoadViewFactory.ILoadMoreView loadMoreView) {
-		super(new RefreshView(swipeRefreshLayout));
-//		super(new RefreshView(swipeRefreshLayout), loadView, loadMoreView);
+		super(new RefreshView(swipeRefreshLayout), loadView, loadMoreView);
 	}
 
 	private static class RefreshView implements IRefreshView {

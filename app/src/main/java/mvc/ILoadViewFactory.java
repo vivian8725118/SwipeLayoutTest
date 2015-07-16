@@ -41,7 +41,7 @@ public interface ILoadViewFactory {
 		/**
 		 * 初始化
 		 * 
-		 * @param mListView
+		 * @param switchView
 		 * @param onClickRefreshListener
 		 *            ，刷新的点击事件，需要点击刷新的按钮都可以设置这个监听
 		 */
