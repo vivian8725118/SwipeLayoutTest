@@ -13,12 +13,17 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
  */
-package com.vivian.swipelayouttest;
+package com.vivian.swipelayouttest.activities;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.view.View;
+
+import com.vivian.swipelayouttest.R;
+import com.vivian.swipelayouttest.adapter.BooksAdapter;
+import com.vivian.swipelayouttest.adapter.BooksDataSource;
+import com.vivian.swipelayouttest.entities.Book;
 
 import java.util.List;
 
